@@ -1,9 +1,11 @@
 import forms from './forms';
+import fields from './fields';
 
 export default () => configContext => ({
     recordTypes: {
         collectionobject: {
-            forms: forms(configContext)
+            fields: fields(configContext),
+            forms: forms(configContext),
         }
     }
 });

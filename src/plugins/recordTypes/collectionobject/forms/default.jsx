@@ -28,16 +28,7 @@ const template = (pluginContext) => {
             <Field name="objectNumber" />
             <Field name="numberOfObjects" />
 
-            <Field name="otherNumberList">
-              <Field name="otherNumber">
-                <Field name="numberValue" />
-                <Field name="numberType" />
-              </Field>
-            </Field>
-
-            <Field name="responsibleDepartments">
-              <Field name="responsibleDepartment" />
-            </Field>
+            <Field name="commonName" subpath="ns2:collectionobjects_bonsai"/>
 
             <Field name="collection" />
             <Field name="recordStatus" />
@@ -66,41 +57,6 @@ const template = (pluginContext) => {
           </Col>
         </Row>
 
-        <Field name="titleGroupList">
-          <Field name="titleGroup">
-            <Panel>
-              <Row>
-                <Col>
-                  <Field name="title" />
-                  <Field name="titleLanguage" />
-                </Col>
-
-                <Col>
-                  <Field name="titleType" />
-
-                  <Field name="titleTranslationSubGroupList">
-                    <Field name="titleTranslationSubGroup">
-                      <Field name="titleTranslation" />
-                      <Field name="titleTranslationLanguage" />
-                    </Field>
-                  </Field>
-                </Col>
-              </Row>
-            </Panel>
-          </Field>
-        </Field>
-
-        <Field name="objectNameList">
-          <Field name="objectNameGroup">
-            <Field name="objectName" />
-            <Field name="objectNameCurrency" />
-            <Field name="objectNameLevel" />
-            <Field name="objectNameSystem" />
-            <Field name="objectNameType" />
-            <Field name="objectNameLanguage" />
-            <Field name="objectNameNote" />
-          </Field>
-        </Field>
       </Panel>
 
       <Panel name="desc" collapsible collapsed>
