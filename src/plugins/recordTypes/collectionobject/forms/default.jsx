@@ -26,9 +26,16 @@ const template = (pluginContext) => {
         <Row>
           <Col>
             <Field name="objectNumber" />
-            <Field name="numberOfObjects" />
-
+            <Field name="taxon" subpath="ns2:collectionobjects_bonsai"/>
             <Field name="commonName" subpath="ns2:collectionobjects_bonsai"/>
+            <Field name="japaneseName" subpath="ns2:collectionobjects_bonsai"/>
+            <Field name="nativeSpecies" subpath="ns2:collectionobjects_bonsai" />
+
+            <Field name="sponsor" subpath="ns2:collectionobjects_bonsai" />
+            <Row>
+                <Field name="sponsorStartDate" subpath="ns2:collectionobjects_bonsai" />
+                <Field name="sponsorEndDate" subpath="ns2:collectionobjects_bonsai" />
+            </Row>
 
             <Field name="collection" />
             <Field name="recordStatus" />
@@ -53,9 +60,37 @@ const template = (pluginContext) => {
               <Field name="comment" />
             </Field>
 
+            <Field name="assignedVolunteers" subpath="ns2:collectionobjects_bonsai">
+                <Field name="assignedVolunteer" />
+            </Field>
+
             <Field name="computedCurrentLocation" />
           </Col>
         </Row>
+
+          <Field name="titleGroupList">
+              <Field name="titleGroup">
+                  <Panel>
+                      <Row>
+                          <Col>
+                              <Field name="title" />
+                              <Field name="titleLanguage" />
+                          </Col>
+
+                          <Col>
+                              <Field name="titleType" />
+
+                              <Field name="titleTranslationSubGroupList">
+                                  <Field name="titleTranslationSubGroup">
+                                      <Field name="titleTranslation" />
+                                      <Field name="titleTranslationLanguage" />
+                                  </Field>
+                              </Field>
+                          </Col>
+                      </Row>
+                  </Panel>
+              </Field>
+          </Field>
 
       </Panel>
 
