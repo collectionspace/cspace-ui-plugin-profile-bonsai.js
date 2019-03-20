@@ -3,6 +3,7 @@
  * webpack.config.js. */
 
 import { defineMessages } from 'react-intl';
+import taxonRecordPlugin from 'cspace-ui-plugin-record-taxon';
 import messages from './messages';
 import plugins from './plugins';
 import styles from '../styles/cspace-ui-plugin-profile/bonsai.css';
@@ -23,5 +24,8 @@ module.exports = () => ({
       version: cspaceUIPluginProfileBonsai.packageVersion,
     },
   },
-  plugins: plugins.map(plugin => plugin()),
+  plugins: [
+    taxonRecordPlugin(),
+    ...plugins.map(plugin => plugin()),
+  ],
 });
