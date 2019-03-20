@@ -39,4 +39,3 @@ cspaceUI({
   // ...
 });
 ```
-# cspace-ui-plugin-profile-bonsai.js
