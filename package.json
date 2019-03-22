@@ -41,6 +41,7 @@
     "test-selenium": "wdio wdio.conf.js"
   },
   "dependencies": {
+    "cspace-ui-plugin-ext-accessionattributes": "0.0.1",
     "cspace-ui-plugin-record-taxon": "0.0.9",
     "react-intl": "^2.3.0"
   },

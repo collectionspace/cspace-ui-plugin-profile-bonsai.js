@@ -3,6 +3,7 @@
  * webpack.config.js. */
 
 import { defineMessages } from 'react-intl';
+import accessionAttributesExtensionPlugin from 'cspace-ui-plugin-ext-accessionattributes';
 import taxonRecordPlugin from 'cspace-ui-plugin-record-taxon';
 import messages from './messages';
 import plugins from './plugins';
@@ -25,6 +26,7 @@ module.exports = () => ({
     },
   },
   plugins: [
+    accessionAttributesExtensionPlugin(),
     taxonRecordPlugin(),
     ...plugins.map(plugin => plugin()),
   ],
