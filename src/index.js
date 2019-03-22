@@ -4,6 +4,7 @@
 
 import { defineMessages } from 'react-intl';
 import accessionAttributesExtensionPlugin from 'cspace-ui-plugin-ext-accessionattributes';
+import livingPlantExtensionPlugin from 'cspace-ui-plugin-ext-livingplant';
 import taxonRecordPlugin from 'cspace-ui-plugin-record-taxon';
 import messages from './messages';
 import plugins from './plugins';
@@ -27,6 +28,7 @@ module.exports = () => ({
   },
   plugins: [
     accessionAttributesExtensionPlugin(),
+    livingPlantExtensionPlugin(),
     taxonRecordPlugin(),
     ...plugins.map(plugin => plugin()),
   ],
