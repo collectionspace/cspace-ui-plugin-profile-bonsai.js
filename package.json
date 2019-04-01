@@ -1,6 +1,6 @@
 {
   "name": "cspace-ui-plugin-profile-bonsai",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bonsai profile plugin for the CollectionSpace UI",
   "author": "",
   "license": "ECL-2.0",
@@ -62,7 +62,7 @@
     "chai-immutable": "^1.6.0",
     "coveralls": "^3.0.2",
     "cross-env": "^2.0.0",
-    "cspace-ui": "^2.0.0",
+    "cspace-ui": "^2.0.2",
     "css-loader": "^0.28.9",
     "eslint": "^3.2.2",
     "eslint-config-airbnb": "^12.0.0",
