@@ -8,10 +8,10 @@ export default {
     <p>
       This demo site is running the
       <a href="http://www.collectionspace.org/current_release/">current version</a> the
-      <a href="https://wiki.collectionspace.org/x/goKkCQ">bonsai profile</a> of
+      <a href="https://collectionspace.atlassian.net/wiki/x/BYA_K">bonsai profile</a> of
       CollectionSpace, which includes fields and procedures useful for bonsai garden collections. If
       you’re interested in a version of CollectionSpace configured to meet the needs of a different
-      domain, please visit our <a href="http://demo.collectionspace.org">demo landing page</a>
+      domain, please visit our <a href="https://www.collectionspace.org/demo/">demo landing page</a>
       to view all available options. Examples include Botanical Garden, Fine Art,
       Herbarium, Local History &amp; Material Culture, and Public Art.
     </p>
