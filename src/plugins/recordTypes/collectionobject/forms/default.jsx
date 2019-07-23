@@ -466,10 +466,6 @@ const template = (configContext) => {
               <Field name="fieldCollectionMethod" />
             </Field>
 
-            <Field name="fieldCollectionNote" />
-          </Col>
-
-          <Col>
             <Field name="fieldCollectionPlace" />
 
             <Field name="fieldCollectionSources">
@@ -479,6 +475,11 @@ const template = (configContext) => {
             <Field name="fieldCollectors">
               <Field name="fieldCollector" />
             </Field>
+          </Col>
+
+          <Col>
+            <Field name="fieldCollectionFeature" />
+            <Field name="fieldCollectionNote" />
           </Col>
         </Row>
       </Panel>
