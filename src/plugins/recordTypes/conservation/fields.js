@@ -26,10 +26,10 @@ export default (configContext) => {
         conservators: {
           conservator: {
             [config]: {
-              // Add a fullname message to disambiguate treatment "performed by" from repotting
+              // Add a fullName message to disambiguate treatment "performed by" from repotting
               // "performed by"
               messages: defineMessages({
-                name: {
+                fullName: {
                   id: 'field.conservation_common.conservator.fullName',
                   defaultMessage: 'Treatment performed by',
                 },
@@ -93,13 +93,13 @@ export default (configContext) => {
             futureTreatment: {
               [config]: {
                 messages: defineMessages({
-                  name: {
-                    id: 'field.conservation_bonsai.futureTreatment.name',
-                    defaultMessage: 'Treatment',
-                  },
                   fullName: {
                     id: 'field.conservation_bonsai.futureTreatment.fullName',
                     defaultMessage: 'Future treatment',
+                  },
+                  name: {
+                    id: 'field.conservation_bonsai.futureTreatment.name',
+                    defaultMessage: 'Treatment',
                   },
                 }),
                 view: {
@@ -114,13 +114,13 @@ export default (configContext) => {
               [config]: {
                 dataType: DATA_TYPE_DATE,
                 messages: defineMessages({
-                  name: {
-                    id: 'field.conservation_bonsai.futureTreatmentDate.name',
-                    defaultMessage: 'Date',
-                  },
                   fullName: {
                     id: 'field.conservation_bonsai.futureTreatmentDate.fullName',
                     defaultMessage: 'Future treatment date',
+                  },
+                  name: {
+                    id: 'field.conservation_bonsai.futureTreatmentDate.name',
+                    defaultMessage: 'Date',
                   },
                 }),
                 view: {
@@ -131,13 +131,13 @@ export default (configContext) => {
             futureTreatmentNote: {
               [config]: {
                 messages: defineMessages({
-                  name: {
-                    id: 'field.conservation_bonsai.futureTreatmentNote.name',
-                    defaultMessage: 'Note',
-                  },
                   fullName: {
                     id: 'field.conservation_bonsai.futureTreatmentNote.fullName',
                     defaultMessage: 'Future treatment note',
+                  },
+                  name: {
+                    id: 'field.conservation_bonsai.futureTreatmentNote.name',
+                    defaultMessage: 'Note',
                   },
                 }),
                 view: {
