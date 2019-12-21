@@ -1,6 +1,6 @@
 import forms from './forms';
 
-export default () => configContext => ({
+export default () => (configContext) => ({
   recordTypes: {
     conditioncheck: {
       forms: forms(configContext),

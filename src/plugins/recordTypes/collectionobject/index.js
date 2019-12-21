@@ -4,7 +4,7 @@ import forms from './forms';
 import messages from './messages';
 import optionLists from './optionLists';
 
-export default () => configContext => ({
+export default () => (configContext) => ({
   optionLists,
   recordTypes: {
     collectionobject: {

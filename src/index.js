@@ -30,6 +30,6 @@ export default () => ({
     accessionAttributesExtensionPlugin(),
     livingPlantExtensionPlugin(),
     taxonRecordPlugin(),
-    ...plugins.map(plugin => plugin()),
+    ...plugins.map((plugin) => plugin()),
   ],
 });
