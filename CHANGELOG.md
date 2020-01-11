@@ -1,5 +1,13 @@
 # Change Log
 
+ # Change Log
+
+## v3.0.0
+
+### Breaking Changes
+
+- v3.0.0 requires cspace-ui version 4, because it uses cspace-ui-plugin-record-taxon version 2.
+
 ## v2.0.0
 
 v2.0.0 adds support for CollectionSpace 5.2.
