@@ -6,7 +6,7 @@
 
 ### Breaking Changes
 
-- v3.0.0 requires cspace-ui version 4, because it uses cspace-ui-plugin-record-taxon version 2.
+- v3.0.0 requires cspace-ui version 4.
 
 ## v2.0.0
 
