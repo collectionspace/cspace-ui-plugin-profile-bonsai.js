@@ -1,6 +1,6 @@
 {
   "name": "cspace-ui-plugin-profile-bonsai",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Bonsai profile plugin for the CollectionSpace UI",
   "author": "Ray Lee <ray.lee@lyrasis.org>",
   "license": "ECL-2.0",
@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "cspace-ui-plugin-ext-accessionattributes": "^1.0.0",
-    "cspace-ui-plugin-ext-livingplant": "^1.0.1",
+    "cspace-ui-plugin-ext-livingplant": "^2.0.0",
     "cspace-ui-plugin-record-taxon": "^2.0.0",
     "react-intl": "^2.3.0"
   },

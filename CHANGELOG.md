@@ -1,6 +1,10 @@
 # Change Log
 
- # Change Log
+## v4.0.0
+
+### Breaking Changes
+
+- v4.0.0 upgrades cspace-ui-plugin-ext-livingplant to version 2. If you have customized this profile, see the changelog for cspace-ui-plugin-ext-livingplant v2.0.0 for changes that may be needed to your configuration.
 
 ## v3.0.0
 
