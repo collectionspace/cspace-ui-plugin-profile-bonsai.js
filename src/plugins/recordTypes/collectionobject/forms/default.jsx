@@ -28,7 +28,12 @@ const template = (configContext) => {
             <Field name="commonName" subpath="ns2:collectionobjects_bonsai" />
             <Field name="japaneseName" subpath="ns2:collectionobjects_bonsai" />
             <Field name="nativeSpecies" subpath="ns2:collectionobjects_bonsai" />
-            <Field name="collection" />
+
+            <Row>
+              <Field name="collection" />
+              <Field name="namedCollection" />
+            </Row>
+
             <Field name="recordStatus" />
             <Field name="sponsor" subpath="ns2:collectionobjects_bonsai" />
 

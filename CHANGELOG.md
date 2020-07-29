@@ -1,5 +1,9 @@
 # Change Log
 
+## v4.1.0
+
+- Added the Named Collection field to the Object record editor form (only if using cspace-ui version 5).
+
 ## v4.0.0
 
 ### Breaking Changes
