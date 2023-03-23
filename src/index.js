@@ -23,6 +23,12 @@ export default () => ({
           defaultMessage: 'Bonsai profile',
         },
       }),
+      packageName: cspaceUIPluginProfileBonsai.packageName,
+      packageVersion: cspaceUIPluginProfileBonsai.packageVersion,
+      buildNum: cspaceUIPluginProfileBonsai.buildNum,
+      repositoryUrl: cspaceUIPluginProfileBonsai.repositoryUrl,
+      // packageVersion is now preferred, but keep version for backward compatibility with older
+      // versions of cspace-ui.
       version: cspaceUIPluginProfileBonsai.packageVersion,
     },
   },
