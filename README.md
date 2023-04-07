@@ -1,6 +1,7 @@
 # cspace-ui-plugin-profile-bonsai
 
-[![build status](https://travis-ci.org/collectionspace/cspace-ui-plugin-profile-bonsai.js.svg?branch=master)](https://travis-ci.org/collectionspace/cspace-ui-plugin-profile-bonsai.js)
+[![npm package](https://img.shields.io/npm/v/cspace-ui-plugin-profile-bonsai.svg)](https://www.npmjs.com/package/cspace-ui-plugin-profile-bonsai)
+[![continuous integration](https://github.com/collectionspace/cspace-ui-plugin-profile-bonsai.js/actions/workflows/ci-js.yml/badge.svg?branch=master&event=push)](https://github.com/collectionspace/cspace-ui-plugin-profile-bonsai.js/actions/workflows/ci-js.yml)
 
 Bonsai profile plugin for the CollectionSpace UI.
 
