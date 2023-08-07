@@ -4,6 +4,7 @@ import conservation from './conservation';
 import exhibition from './exhibition';
 import iterationreport from './iterationreport';
 import objectexit from './objectexit';
+import place from './place';
 
 export default [
   collectionobject,
@@ -12,4 +13,5 @@ export default [
   exhibition,
   iterationreport,
   objectexit,
+  place,
 ];
