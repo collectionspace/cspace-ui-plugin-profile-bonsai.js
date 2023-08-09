@@ -1,3 +1,4 @@
+import chronology from './chronology';
 import collectionobject from './collectionobject';
 import conditioncheck from './conditioncheck';
 import conservation from './conservation';
@@ -7,6 +8,7 @@ import objectexit from './objectexit';
 import place from './place';
 
 export default [
+  chronology,
   collectionobject,
   conditioncheck,
   conservation,
