@@ -1,10 +1,8 @@
 import forms from './forms';
-import vocabularies from './vocabularies';
 
 export default () => (configContext) => ({
   recordTypes: {
-    place: {
-      vocabularies,
+    person: {
       forms: forms(configContext),
     },
   },
