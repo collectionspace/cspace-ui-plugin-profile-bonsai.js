@@ -1,5 +1,16 @@
 # Change Log
 
+## v6.0.0
+
+v6.0.0 requires cspace-ui version 9.
+
+- On the record editor form for Object records, the field collection place field (`fieldCollectionPlace`) has been replaced with the repeating `fieldCollectionPlaces/fieldCollectionPlace`.
+
+### Breaking Changes
+
+- Object record:
+  - `fieldCollectionPlace` has been replaced with the repeating `fieldCollectionPlaces/fieldCollectionPlace`.
+
 ## v5.0.0
 
 ### Breaking Changes
