@@ -2,9 +2,10 @@
 
 ## v6.0.0
 
-v6.0.0 requires cspace-ui version 9.
+v6.0.0 adds support for CollectionSpace 8.0, and requires cspace-ui version 9.
 
-- On the record editor form for Object records, the field collection place field (`fieldCollectionPlace`) has been replaced with the repeating `fieldCollectionPlaces/fieldCollectionPlace`.
+- On the record editor form for Object records:
+  - The field collection place field (`fieldCollectionPlace`) has been replaced with the repeating field collection places (`fieldCollectionPlaces/fieldCollectionPlace`). If this version of the bonsai profile is used with an older CollectionSpace server, values entered in the repeating field will not be saved.
 
 ### Breaking Changes
 
