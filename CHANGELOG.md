@@ -1,5 +1,14 @@
 # Change Log
 
+## v7.1.0
+
+v7.1.0 adds support for CollectionSpace 8.2
+
+### Changes
+
+- On the record editor form for Object records:
+  - The field Object Production Agent (`objectProductionAgents/objectProductionAgent`) has been added. If this verison of the bonsai profile is used with a CollectionSpace server older than 8.2.0, values entered in the repeating field will not be saved.
+
 ## v7.0.0
 
 v7.0.0 adds support for CollectionSpace 8.1, and requires cspace-ui version 10.
